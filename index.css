@@ -1,0 +1,39 @@
+.item{
+    font-size: 2rem;
+    padding: 10px;
+    text-align: center;
+    color: #000;
+}
+.item-1 {
+    background-color: red;
+    
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item-2 {
+    background-color: aqua;
+    grid-row: 2/4 ;
+}
+.item-3 {
+    background-color: bisque;
+}
+.item-4 {
+    background-color: chartreuse;
+    grid-column: 2/3;
+}
+.item-5 {
+    background-color: cornflowerblue;
+}
+.item-6 {
+    background-color: darksalmon;
+}
+.grid-container{
+    border:2px solid black;
+    padding: 10px;
+    display:grid;
+    /*grid-template-columns: 400px 400px 400px;*/
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+
+}
